@@ -14,7 +14,7 @@
   "homepage": "https://manohar427.github.io/static-deploy",
   "scripts": {
     "predeploy":"npm run build",
-	"deploy":"gh-pages -d build",
+	"deploy":"test -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
